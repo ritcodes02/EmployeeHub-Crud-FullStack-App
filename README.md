@@ -12,7 +12,6 @@ Node.js
 MySQL Server
 Git
 
-Getting Started
-Clone the repository:
+
 
 
