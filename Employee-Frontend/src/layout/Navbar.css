@@ -1,0 +1,49 @@
+/* Navbar styles */
+.custom-navbar {
+    background: linear-gradient(90deg, #6a11cb, #2575fc); /* Gradient background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .nav-link {
+    color: #dcdcdc !important;
+    margin-right: 15px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #fff !important;
+  }
+  
+  .custom-btn {
+    background-color: #ff6f61;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: #ff3d2e;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .custom-navbar {
+      text-align: center;
+    }
+  
+    .custom-btn {
+      margin-top: 10px;
+    }
+  }
+  
